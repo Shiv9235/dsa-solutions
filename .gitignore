@@ -1,0 +1,15 @@
+# macOS metadata
+.DS_Store
+
+# Compiled programs and debugger metadata
+output/
+**/output/
+*.dSYM/
+*.out
+*.o
+*.exe
+build/
+
+# Editor settings
+.vscode/
+.idea/
