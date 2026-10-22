@@ -1,15 +1,31 @@
-# macOS metadata
-.DS_Store
+# Track source-code files only. Keep this .gitignore tracked so the rule is
+# available after cloning the repository.
+*
+!*/
+!.gitignore
+!*.c
+!*.cc
+!*.cpp
+!*.cxx
+!*.h
+!*.hh
+!*.hpp
+!*.hxx
+!*.kt
+!*.kts
+!*.java
+!*.py
+!*.js
+!*.jsx
+!*.ts
+!*.tsx
+!*.go
+!*.rs
+!*.cs
+!*.swift
+!*.rb
+!*.php
+!*.sh
 
-# Compiled programs and debugger metadata
-output/
-**/output/
-*.dSYM/
-*.out
-*.o
-*.exe
-build/
-
-# Editor settings
-.vscode/
-.idea/
+# A compiled program plus accidental nested Git metadata; neither is source.
+/Strings/output/
